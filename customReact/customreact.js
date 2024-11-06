@@ -13,7 +13,8 @@ let customRender = (reactElement,container)=>{
     container.appendChild(domElement);
 }
 const reactElement = {
-    type: 'a',
+
+    type: 'a', 
     props:{
         href: 'https://google.com',
         target :'_blank'
